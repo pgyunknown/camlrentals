@@ -60,7 +60,7 @@ const Contact = () => {
             className="contact-img img-left"
           />
           <img 
-            src="https://images.unsplash.com/photo-1590408500295-f93539fcb9c3?q=80&w=400&auto=format&fit=crop" 
+            src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?q=80&w=400&auto=format&fit=crop" 
             alt="Studio interior" 
             className="contact-img img-right"
           />

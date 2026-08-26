@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-background">
         <img 
-          src="https://images.unsplash.com/photo-1605335967916-242cb66bb708?q=80&w=2574&auto=format&fit=crop" 
+          src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=2574&auto=format&fit=crop" 
           alt="Cinematic fashion photography" 
           className="hero-image"
         />
