@@ -1,0 +1,91 @@
+.services-section {
+  background-color: #ffffff;
+}
+
+.services-heading {
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  margin-bottom: 4rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.service-icon {
+  color: var(--color-gray-dark);
+  /* The reference uses some intricate thin lines, lucide with strokeWidth 1 approximates this */
+}
+
+.service-text {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.service-title {
+  font-weight: 700;
+}
+
+.service-subtitle {
+  color: var(--color-gray);
+  font-weight: 400;
+}
+
+.features-strip {
+  background-color: #F9F8F6; /* very light beige */
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  border: 1px solid var(--color-gray-light);
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.feature-icon {
+  color: var(--color-gray-dark);
+}
+
+.feature-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+  
+  .features-strip {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .features-strip {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
